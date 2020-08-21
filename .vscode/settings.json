@@ -1,0 +1,25 @@
+{
+    // disable other formatOnSave settings
+    "editor.formatOnSave": false,
+    "[javascript]": {
+        "editor.formatOnSave": false,
+    },
+    "[javascriptreact]": {
+        "editor.formatOnSave": false,
+    },
+
+    // validate and format on save with eslint
+    "eslint.validate": [ "html", "javascript", "javascriptreact"],
+    "prettier.disableLanguages": [
+        "javascript", "javascriptreact"
+    ],
+    "eslint.workingDirectories": [
+        {
+            "mode": "auto"
+        }
+    ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
