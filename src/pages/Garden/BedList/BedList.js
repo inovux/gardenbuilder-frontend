@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import { useQuery } from "@apollo/client"
-import { GET_USER_BEDS } from "../../../queries/queries"
+import { GET_USER_BEDS } from "../../../queries"
 import { BedListItem } from "../BedListItem"
 
 const BedListWrapper = styled.ul`
