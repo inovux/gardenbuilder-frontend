@@ -21,3 +21,15 @@ export const CURRENT_USER_QUERY = gql`
     }
   }
 `
+`
+
+export const GET_USER_BEDS = gql`
+  query GET_USER_BEDS($gardenId: Int!) {
+    bedsForUser(gardenId: $gardenId) {
+      id
+      name
+      width
+      length
+    }
+  }
+`
